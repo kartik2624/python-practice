@@ -1,0 +1,5 @@
+creating a file from python file
+appending few lines for better understanding
+the 'w' method will overwrite the entire file
+'x'-Create - will create a file, returns an error if the file exists
+'a'-Append - will append to the end of the file
