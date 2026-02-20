@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let obj1 = {
+  name: "Kartik",
+  address: {
+    city: "Gadag"
+  }
+};
+
+
+let obj2 = { ...obj1 }; 
+console.log(obj2) 
+console.log(obj1);
+// Shallow copy
+
+obj2.address.city = "Bengaluru";
+
+console.log(obj1.address.city);  // Bengaluru ❌ changed
+    </script>
+</body>
+</html>
