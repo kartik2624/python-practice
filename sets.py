@@ -106,7 +106,7 @@ set3 = set2 - set1
 print("hello", set3)
 
 
-#### Symmetric Differences
+#### Symmetric Differences or '^'
 # the symmetric difference(). method will keep only the elements that are NOT present in both sets.
 
 items1 = {"apple", "banana", "cherry"}
